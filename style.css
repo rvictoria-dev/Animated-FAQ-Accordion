@@ -78,7 +78,7 @@ h2 i {
   grid-template-rows: 0fr;
   transition: 0.3s;
 }
-.item.item.active .answer {
+.item.active .answer {
   grid-template-rows: 1fr;
 }
 .answer p {
