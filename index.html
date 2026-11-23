@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+
+    <title>Animated FAQ Accordion</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="faq">
+      <h2>Got Questions? <i class="fa-regular fa-circle-question"></i></h2>
+      <div class="item active">
+        <button class="question" aria-expanded="true">
+          <span class="icon"><i class="fa-solid fa-lightbulb"></i></span>
+          <b>Is this accordion cool?</b>
+          <i class="fa-solid fa-plus plus"></i>
+        </button>
+        <div class="answer">
+          <p>Of course! Smooth, stylish, and interactive.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <button class="question" aria-expanded="false">
+          <span class="icon"><i class="fa-solid fa-rocket"></i></span>
+          <b>Will it improve my website?</b>
+          <i class="fa-solid fa-plus plus"></i>
+        </button>
+        <div class="answer">
+          <p>Absolutely! Your FAQs just got an upgrade.</p>
+        </div>
+      </div>
+
+      <div class="item">
+        <button class="question" aria-expanded="false">
+          <span class="icon"
+            ><i class="fa-solid fa-wand-magic-sparkles"></i
+          ></span>
+          <b>What's the secret ingredient?</b>
+          <i class="fa-solid fa-plus plus"></i>
+        </button>
+        <div class="answer">
+          <p>A little CSS magic and JavaScript.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
