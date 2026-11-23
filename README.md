@@ -82,7 +82,7 @@ animated-faq-accordion/
 
 - **Animate height with CSS:** use `grid-template-rows` from 0fr to 1fr and let the layout expand without a fixed height.
 
-- **Hide content with `overflow:** `hidden`: the text does not appear while the area is closed.
+- **Hide content with `overflow: hidden`:** the text does not appear while the area is closed.
 
 - **CSS transformations:** rotate the + by 45° to turn it into an X and apply a `rotate` with `scale` to the active item’s icon.
 
